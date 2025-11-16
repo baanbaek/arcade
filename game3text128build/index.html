@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=640 height=480 style="width: 640px; height: 480px; background: #231F20"></canvas>
-    <script src="Build/x.loader.js"></script>
+    <script src="Build/game3text128build.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/x.data.unityweb",
-        frameworkUrl: "Build/x.framework.js.unityweb",
-        codeUrl: "Build/x.wasm.unityweb",
+        dataUrl: "Build/game3text128build.data.unityweb",
+        frameworkUrl: "Build/game3text128build.framework.js.unityweb",
+        codeUrl: "Build/game3text128build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "baanbaek",
         productName: "128",
